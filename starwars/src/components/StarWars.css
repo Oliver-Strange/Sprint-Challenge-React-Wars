@@ -1,0 +1,29 @@
+.characters {
+    background-color: lightgray;
+    width: 200px;
+    border-radius: 10px;
+    opacity: .7;
+    margin: 20px;
+    box-shadow: 0 0 2px 1px;
+}
+
+.cName {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cGender {
+    font-size: .8rem;
+}
+
+.cBorn {
+    font-size: .8rem;
+}
+
+.cHair{
+    font-size: .8rem;
+}
+
+.cHeight {
+    font-size: .8rem;
+}
