@@ -3,7 +3,7 @@ import Characters from './Characters';
 
 function CharacterList(props) {
     return(
-        <div>
+        <div className='cList'>
             {props.characters.map((characters, index) => (
                 <Characters key={index} characters={characters}/>
             ))}

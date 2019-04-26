@@ -4,8 +4,12 @@ import './StarWars.css';
 function Characters(props) {
     return(
         <div className='characters'>
-           <p className='cName'>name: {props.characters.name}</p>
-           <p className=''>gender: {props.characters.gender}</p>
+           <p className='cName'>Name: {props.characters.name}</p>
+           <p className='cGender'>Gender: {props.characters.gender}</p>
+           {/* <img className='cHome' src='{props.characters.homeworld}' /> */}
+           <p className='cBorn'>Born: {props.characters.birth_year}</p>
+           <p className='cHair'>Hair Color: {props.characters.hair_color}</p>
+           <p className='cHeight'>Height (cm): {props.characters.height}</p>
         </div>
     );
 };
